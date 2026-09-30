@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Large Dataset Files
+data/processed/*.npy
+data/processed/*.npz
+
+# Trained ML Models
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.hdf5
+models/*.onnx
+models/*.pt
+models/*.pth
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# Temporary Files
+*.tmp
+*.temp

@@ -1,0 +1,6 @@
+pandas
+numpy
+scikit-learn
+openpyxl
+joblib
+mlflow==3.16.1
